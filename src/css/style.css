@@ -1,0 +1,29 @@
+body {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+}
+.splash-screen {
+	height: 100vh;
+	width: 100vw;
+}
+.splash-bg-img {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+}
+.splash-lens {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 99;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0, 0, 0, 0.9)	);
+}
+.splash-icon {
+	height: 200px;
+	width: 200px;
+}
